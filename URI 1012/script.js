@@ -1,4 +1,4 @@
-// PROBLEMA: 1010 - Cálculo Simples
+// PROBLEMA: 1012 - Área
 // RESPOSTA: Accepted
 
 var input = require("fs").readFileSync("stdin", "utf8");
