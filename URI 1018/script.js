@@ -9,7 +9,7 @@ let valor = parseFloat(lines.shift());
 let valorNotas = [100,50,20,10,5,2,1];
 let qtdNotas = new Array(valorNotas.length);
 
-
+console.log(valor.toString())
 for(let i=0; i<qtdNotas.length; i++){
     qtdNotas[i] = Math.floor(valor/valorNotas[i]);
     valor = valor%valorNotas[i];
