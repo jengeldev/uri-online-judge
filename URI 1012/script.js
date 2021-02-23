@@ -9,22 +9,22 @@ let b = parseFloat(lines.shift());
 let c = parseFloat(lines.shift());
 
 function areaTriRet() {
-    return "TRIANGULO: " + ((a * c) / 2).toFixed(3) + "\n";
+    return ((a * c) / 2).toFixed(3);
 }
 
 function areaCirculo() {
-    return "CIRCULO: " + (3.14159 * Math.pow(c, 2)).toFixed(3) + "\n";
+    return (3.14159 * Math.pow(c, 2)).toFixed(3);
 }
 
 function areaTrapezio() {
-    return "TRAPEZIO: " + ((a + b) / 2 * c).toFixed(3) + "\n";
+    return ((a + b) / 2 * c).toFixed(3);
 }
 function areaQuadrado() {
-    return "QUADRADO: " + Math.pow(b, 2).toFixed(3) + "\n"
+    return Math.pow(b, 2).toFixed(3);
 }
 
 function areaRetanugulo() {
-    return "RETANGULO: " + (a*b).toFixed(3) + "\n"
+    return (a * b).toFixed(3);
 
 }
-console.log(areaTriRet() + areaCirculo() + areaTrapezio() + areaQuadrado() + areaRetanugulo());
+console.log("TRIANGULO: " + areaTriRet() + "\nCIRCULO: "+ areaCirculo() + "\nTRAPEZIO: " +areaTrapezio() + "\nQUADRADO: " + areaQuadrado() + "\nRETANGULO: " + areaRetanugulo());
